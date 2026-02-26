@@ -19,6 +19,7 @@ public class BasePage {
          driver =new ChromeDriver();
         driver.get("https://www.takealot.com/");
         driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 
     }
